@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signature-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.signature {
+  width: 390px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #16302B;
+  border: 4px solid #D4E09B;
+  color: #CBDFBD;
+}
+
+.name {
+border-bottom: 4px solid #D4E09B;
+border-right: 4px solid #D4E09B;
+padding: 5px;
+padding-right: 46.3px;
+}
+
+.tab-square, .minmax-square {
+  border-bottom: 4px solid #D4E09B;
+  border-right: 4px solid #D4E09B;
+  font-size: 25px;
+  padding: 9px;
+}
+
+.exit-square {
+  border-bottom: 4px solid #D4E09B;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.contact-info {
+  padding: 5px;
+  line-height: 30px;
+}
+
+.job {
+  font-style: italic;
+}
+
+.company {
+  font-size: 20px;
+}
+
+.email {
+  display: inline;
+  border: 1px solid black;
+  background-color: #D4E09B;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+a:link {
+  color: #16302B;
+  text-decoration: none;
